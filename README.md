@@ -1,1 +1,1 @@
-# tz_atcoder_niv
+# tz_atcoder_nim
