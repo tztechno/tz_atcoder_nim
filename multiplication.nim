@@ -1,3 +1,6 @@
+//abc169_a multiplication.nim
+################################
+################################
 import strformat, macros, algorithm, tables, sets, lists,
     intsets, critbits, sequtils, strutils, math, times,
     sugar, options, deques, bitops
@@ -35,3 +38,24 @@ macro read(t: typedesc, n: varargs[int]): untyped =
 
 when isMainModule:
   echo read(int) * read(int)
+################################
+import strutils,sequtils,math
+echo prod(stdin.readLine.split.map parseInt)
+################################
+from std/strutils import split,parseInt
+from std/sequtils import map
+var a,b:int
+(a,b)=stdin.readline.split.map(parseInt)
+echo a*b
+################################
+import strutils, sequtils, math, algorithm, tables, sets, lists, intsets, critbits, future
+var a,b :int;(a,b)=stdin.readline.split.map(parseint)
+echo a*b
+################################
+import strscans, strformat
+var
+  A: int
+  B: int
+discard stdin.readLine.scanf("$i $i", A, B)
+echo &"{A*B}"
+################################
