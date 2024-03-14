@@ -15,7 +15,7 @@ test
 ##################################
 import strutils,sequtils
 var
-  a,b,c:int
+  a,b,c,sum:int
   s:string
 a=stdin.readLine.parseInt
 (b,c)=stdin.readLine.split.map parseInt
