@@ -34,7 +34,10 @@
 ```
 ---
 ```
-
+import tables
+var X=stdin.readLine[0]
+const mapp = {'A': 'T', 'T': 'A', 'C': 'G', 'G': 'C'}.toTable
+echo mapp[X]
 ```
 ---
 ```
